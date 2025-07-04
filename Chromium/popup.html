@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <title>ORSys Sniper</title>
+    <link rel=stylesheet href="styles.css">
+  </head>
+
+  <body>
+    <div class="splash-screen">
+      <div class="splash-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M12 3L1 9l11 6 9-4.91V17h2V9M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z" />
+        </svg>
+      </div>
+
+      <div class="splash-text">ORSys Sniper</div>
+    </div>
+
+    <div class="container">
+      <div class="theme-toggle-wrapper">
+       <button class="theme-toggle" id="theme-toggle" title="Toggles light & dark" aria-label="auto" aria-live="polite">
+          <svg class="sun-and-moon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
+            <mask class="moon" id="moon-mask">
+              <rect x="0" y="0" width="100%" height="100%" fill="white" />
+              <circle cx="24" cy="10" r="6" fill="black" />
+            </mask>
+            <circle class="sun" cx="12" cy="12" r="6" mask="url(#moon-mask)" fill="currentColor" />
+            <g class="sun-beams" stroke="currentColor">
+              <line x1="12" y1="1" x2="12" y2="3" />
+              <line x1="12" y1="21" x2="12" y2="23" />
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+              <line x1="1" y1="12" x2="3" y2="12" />
+              <line x1="21" y1="12" x2="23" y2="12" />
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+            </g>
+          </svg>
+        </button>
+      </div>
+      <h3>ORSys Sniper</h3>
+      <div id="subjects-container"></div>
+      <button id="add-subject">+ Add Subject</button>
+      <button id="sendBtn">Register Subjects</button>
+      <div class="file-buttons-container">
+        <button id="saveBtn">Save to File</button>
+        <button id="loadBtn">Load from File</button>
+      </div>
+      <pre id="response"></pre>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
