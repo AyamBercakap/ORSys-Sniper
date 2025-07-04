@@ -15,9 +15,9 @@ Make registering subjects at UMP way easier by allowing users to register multip
 
 1. Download the Chromium build from the button above.  
 2. Open Chrome or any Chromium-based browser (Edge, Brave, etc.).  
-3. Go to `chrome://extensions/`.  
+3. Go to [`chrome://extensions/`](chrome://extensions/).  
 4. Enable **Developer mode** on the top right.  
-5. Click `Load unpacked` and select the extracted extension folder.
+5. Click `Load unpacked` and select the extracted extension folder.  
 6. Click on the extension to run it.
 
 </details>
@@ -27,8 +27,10 @@ Make registering subjects at UMP way easier by allowing users to register multip
 
 1. Download the Firefox build and extract.  
 2. Open Firefox.  
-3. Go to `about:debugging#/runtime/this-firefox`.  
+3. Go to [`about:debugging#/runtime/this-firefox`](about:debugging#/runtime/this-firefox).  
 4. Click **Load Temporary Add-on**.  
-5. Select `manifest.json` file inside the extracted extension folder.
-6. A sidebar will appear
+5. Select the `manifest.json` file inside the extracted extension folder.  
+6. A sidebar will appear.
+
 </details>
+
