@@ -64,7 +64,7 @@ Check your browser build first!
    ```
    atau, (NamaBrowser://extensions)
 - Aktifkan **Developer mode** dekat bucu kanan atas.  
-- Klik butang `Load unpacked` dan pilih folder extension yang telah diekstrak.  
+- Klik butang `Load unpacked` dan pilih folder extension yang dah ekstrak.  
 - Klik pada extension tersebut untuk guna.
 <hr>
 </details>
@@ -79,7 +79,7 @@ Check your browser build first!
    about:debugging#/runtime/this-firefox
    ```
 - Klik butang **Load Temporary Add-on**.  
-- Pilih fail `manifest.json` dari dalam folder extension yang telah diekstrak.  
+- Pilih fail `manifest.json` dari dalam folder extension yang dah ekstrak.  
 - Sidebar extension akan dipaparkan.
 <hr>
 </details>
